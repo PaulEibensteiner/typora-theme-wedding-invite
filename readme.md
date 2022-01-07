@@ -2,7 +2,7 @@
 
 *A Typora Theme, code inspired by [Ursine](https://github.com/noatpad/typora-theme-ursine)*
 
-![screenshot](C:\Users\Paul\Nextcloud\projekte\Design\typora\wedding-invite\readme.assets\screenshot.png)
+![screenshot](preview/screenshot.png)
 
 Fonts FiraGo, Majesti Banner, Freight Big Pro and Fira Mono not included for legal reasons.
 
