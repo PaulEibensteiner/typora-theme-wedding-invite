@@ -1,0 +1,36 @@
+.md-image:only-child {
+	position: relative;
+	width: calc(100% + 2 * #{$write-padding}) !important;
+}
+
+.md-image {
+	margin: 0 0.5rem;
+}
+
+.md-image:last-child {
+	margin-right: -$write-padding;
+}
+
+.md-image:first-child {
+	margin-left: -$write-padding;
+}
+
+.md-image img {
+	border: 0;
+}
+
+// Hero Image when first element
+
+#write p:first-child .md-image {
+	overflow: hidden;
+	margin-bottom: -5.5rem;
+	position: relative;
+	background-color: transparent;
+	margin-top: -1rem;
+
+	img {
+		width: 100%;
+		z-index: 0;
+	}
+
+}

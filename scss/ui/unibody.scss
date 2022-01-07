@@ -1,0 +1,59 @@
+// #region unibody menu
+
+.megamenu-menu {
+  color: $black;
+}
+
+.megamenu-content {
+  background: $background-pink;
+  background-size: 30rem;
+  --item-hover-bg-color: #{$white};
+}
+
+#megamenu-menu-sidebar .megamenu-menu-header #megamenu-menu-header-title * {
+  color: $black !important;
+  border: none;
+}
+
+.megamenu-menu-list li a.active {
+  background-color: var(--active-file-bg-color) !important;
+}
+
+#megamenu-back-btn {
+	color: $black;
+  border: none;
+}
+
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active {
+	color: $black;
+  border: none;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title:before {
+	color: $black !important;
+  border: none;
+}
+
+#megamenu-menu-header-title {
+  color: $black;
+  border: none;
+}
+
+.megamenu-menu-header {
+  border: none;
+}
+
+.megamenu-opened header {
+  background-image: none;
+  background-color: $white;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+  background-color: transparent !important;
+}
+
+#recent-file-panel tbody tr:hover td {
+  background-color: $white !important;
+}
+
+// #endregion

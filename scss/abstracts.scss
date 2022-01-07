@@ -1,0 +1,73 @@
+// SCSS VARIABLES //
+
+$write-padding: 5rem;
+$asset-path: "wedding-invite";
+
+// Font variables
+$paragraph-font: "'FiraGo', sans-serif";
+$principal-header-font: "'Majesti Banner', serif";
+$header-font: "'Freight Big Pro', 'Times New Roman', serif";
+$monospace-font: "'Fira Mono', 'Cousine', 'Consolas', monospace";
+
+// Meine Farben nach Namen
+$white: rgb(255, 255, 255);
+$wedding-pink: rgb(255, 203, 200);
+$wedding-strong-pink: #e996a8;
+$black: rgb(0, 0, 0);
+$wedding-gray: #7a7a7a;
+$wedding-gray-light: #8d8887;
+$wedding-red: #9f5a5a;
+$cocoa-brown: #362423;
+$background-pink: rgb(250, 240, 240);
+$wedding-blue: #ced7f3;
+
+// Meine Farben nach Benutzung
+$functional-chars: $wedding-gray; // Farbe für Listenbulltes, Referenzen-zahlen usw.
+$inactive-chars: $wedding-gray-light; // Farbe für ausgegraute Inhalte
+
+// Important colors for writing (text, links, code, etc.)
+$bg-color: $white;
+$text-color: $black !default;
+$md-char-color: $wedding-pink !default; // color of meta characters (i.e. `*` in markdown)
+$meta-content-color: $wedding-red !default; // color of meta contents (i.e. image text or link address in markdown)
+$link-color: $wedding-blue !default;
+$mark-color: $wedding-blue !default;
+$code-bg-color: #282a36 !default;
+$code-border-color: #5b5b5b !default;
+$kbd-bg-color: #282a36 !default;
+$selected-text-bg-color: $wedding-strong-pink !default;
+$quote-color: #000000 !default;
+$wedding-gray: #7a7a7a !default;
+
+// ROOT VARIABLES //
+
+:root {
+  --bg-color: #{$white};
+  --text-color: #{$black};
+  --md-char-color: #{$wedding-pink};
+  --meta-content-color: #{$wedding-red};
+  --table-border-color: #{$white};                // color of table cell borders
+  --select-text-bg-color: #{$selected-text-bg-color};     // background color for selected text, does not work
+
+  --primary-color: #{$wedding-pink};                        // primary color
+  --primary-btn-border-color: #{$white};  // primary color for button borders
+  --primary-btn-text-color: #{$black};                  // text color for buttons
+
+  --window-border: $white;   // border color for window and sidebar
+
+  --active-file-bg-color: #{$wedding-pink};                 // background color for active file in sidebar
+  --active-file-text-color: #{$black};                                // text color for selected file
+  --active-file-border-color: #{$meta-content-color};               // border color for selected file
+  --active-search-item-bg-color: #{$wedding-strong-pink};   // background color for active search item
+
+  --side-bar-bg-color: #{$white};             // sidebar background color
+  --item-hover-bg-color: #{$white};        // background color of control items when hovering
+  --item-hover-text-color: #{$black};    // text color upon hovering over menu items
+  --search-select-text-color: #{$wedding-strong-pink};            // text color for selected searched text
+  --search-select-bg-color: #{$white};  // background color for selected searched text
+  --rawblock-edit-panel-bd: #{$background-pink};            // background color for inline HTML 'edit panel' blocks
+  --monospace: #{$monospace-font};                       // monospace font for code
+
+  --node-fill: #{$background-pink};           // Mermaid node fill color
+  --node-border: #{$white};       // Mermaid node border
+}

@@ -1,0 +1,19 @@
+#write {
+  a {
+		color: $link-color;
+		text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a img {
+		border: none;
+	}
+	
+	mark {
+		background-color: $mark-color;
+		color: inherit;
+	}
+
+	del { color: $text-color; }
+}

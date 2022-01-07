@@ -1,0 +1,82 @@
+// FONT-FACES //
+
+// Normal font-faces
+@font-face {
+  font-family: 'FiraGO';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FiraGO'), url('./wedding-invite/FiraGo-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  font-style: italic;
+  font-weight: normal;
+  src: local('FiraGO It'), url('./wedding-invite/FiraGo-BookItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  font-style: normal;
+  font-weight: bold;
+  src: local('FiraGO Medium'), url('./wedding-invite/FiraGo-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  font-style: italic;
+  font-weight: bold;
+  src: local('FiraGO Medium Italic'), url('./wedding-invite/FiraGo-MediumItalic.otf') format('opentype');
+}
+
+// principal header
+@font-face {
+  font-family: 'Majesti Banner';
+  font-style: normal;
+  font-weight: medium;
+  src: local('Majesti Banner Medium'), url('./wedding-invite/Majesti-Banner-Medium.otf') format('opentype');
+}
+
+// Headers
+@font-face {
+  font-family: 'Freight Big Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Freight Big Pro Book'), url('./wedding-invite/Freight Big Pro Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Freight Big Pro';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Freight Big Pro Italic'), url('./wedding-invite/Freight Big Pro BookItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Freight Big Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Freight Big Pro SemiBold'), url('./wedding-invite/Freight Big Pro SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Freight Big Pro';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Freight Big Pro SemiBold Italic'), url('./wedding-invite/Freight Big Pro SemiBold Italic.otf') format('opentype');
+}
+
+// Mono Font
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fira Mono Regular'), url('./wedding-invite/FiraMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Fira Mono Bold'), url('./wedding-invite/FiraMono-Bold.otf') format('opentype');
+}

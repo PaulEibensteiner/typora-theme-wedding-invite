@@ -1,0 +1,73 @@
+// GENERAL STYLING FOR THE DOCUMENT
+
+html, body {
+	font-family: unquote($paragraph-font);
+	font-size: 1em;
+}
+
+content {
+  z-index: -2;
+  background-color: $background-pink;
+}
+
+#write {
+	width: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+	line-height: 1.6;
+  transform: none;
+	padding: 0 $write-padding;
+  // try this out, to be able to style respective to .content
+  position: relative;
+  background-color: white;
+  z-index: -1;
+  // make boxy
+  border: 0.8rem solid white;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.08);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+	
+
+	p {
+    margin-left: 0;
+    margin-right: 0;
+    clear: right; // avoid floating around yaml frontmatter
+    position: static;
+		padding: 1;
+	  background-color: transparent;
+    // z-index necessary bc of hero image
+    position: relative;
+    z-index: 1;
+	}
+
+	h1, h2, h3, h4, h5, h6, p, pre {
+    width: auto;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1100px;
+	}
+}
+
+// Empty file splashscreen
+#write > p {
+  &:first-child:empty {
+    position: static;
+  }
+
+  &:only-child:empty::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("#{$asset-path}/viereck-blumen.png") no-repeat center center transparent;
+    background-size: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+#typora-sidebar, #megamenu-menu-sidebar, .typora-node #megamenu-menu-sidebar {
+  background: white url("#{$asset-path}/eck-blumen.png") no-repeat right bottom;
+  background-size: 10em;
+  background-origin: content-box;
+  border-right: 0.8rem solid white;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.08);
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.05);
+}
+
+// nervig dass das nötig is
+.typora-node #typora-sidebar {
+  box-shadow: 0 0 1rem rgba(0,0,0,0.10);
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.10);
+}

@@ -1,0 +1,15 @@
+.mathjax-block {
+	margin-top: 0;
+}
+
+code,
+.md-fences,
+pre {
+  font-family: unquote($monospace-font);
+}
+
+.md-fences{
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid $functional-chars;
+}
